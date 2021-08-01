@@ -1,0 +1,81 @@
+
+.addnew{
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: crimson;
+  color: #fff;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color:  rgb(160, 16, 45);
+}
+
+table{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table, table :is(tr, td, th){
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+table th{
+  background-color: crimson;
+  color: #fff;
+}
+ 
+form{
+  width: 50%;
+  margin: 0px auto;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_group{
+  width: 100%;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.input_group input{
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 5px 10px 5px;
+}
+.input_group select{
+  outline: none;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+.btn_group{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0px;
+  justify-content: space-between;
+}
+.btn_group button{
+  padding: 10px 15px;
+  background-color: crimson;
+  color: #fff;
+  outline: none;
+  border: 1px solid crimson;
+  cursor: pointer;
+  width: 49%;
+}
+.btn_group button:hover{
+ background-color: rgb(160, 16, 45);
+}
